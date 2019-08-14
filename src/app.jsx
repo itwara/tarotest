@@ -26,7 +26,7 @@ class App extends Component {
 
   globalStore = {
     appInfo: null,
-    baseUrl: 'http://fang.lousiling.cn/swan'
+    baseUrl: 'http://www.mellicapen.com'
   }
 
   componentDidMount () {}

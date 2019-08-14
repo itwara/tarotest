@@ -22,7 +22,7 @@ export default class Index extends Component {
     return (
       <View className='index'>
         {/* <Text>Hello world!</Text> */}
-        <WebView src='https://fang.lousiling.cn' />
+        <WebView src='http://www.mellicapen.com' />
       </View>
     )
   }
