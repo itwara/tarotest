@@ -2,10 +2,11 @@ import Taro, { Component } from '@tarojs/taro'
 import { View, Text,  WebView, Icon, RichText, Textarea, Switch, Image } from '@tarojs/components'
 import './index.scss'
 
+
 export default class Index extends Component {
 
   config = {
-    titleBar: false
+    titleBar: process.env.TARO_ENV === 'quickapp' ? false : true
   }
 
   componentWillMount () { }
