@@ -5,7 +5,7 @@ import './index.scss'
 export default class Index extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    titleBar: false
   }
 
   componentWillMount () { }
